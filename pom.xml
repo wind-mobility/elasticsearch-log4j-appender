@@ -6,7 +6,7 @@
 
     <groupId>com.chavaillaz</groupId>
     <artifactId>elasticsearch-log4j-appender</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-java11</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}.${project.artifactId}</name>
@@ -258,14 +258,22 @@
     </profiles>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>wind.internal.repo</id>
+            <name>Wind Internal Repository</name>
+            <url>https://nexus.repo.bi-wind.co/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
+
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--            <id>ossrh</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>ossrh</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
 </project>

@@ -1,5 +1,8 @@
 # Elasticsearch Appender
 
+!!! Recompiled with Java 11 to be compatible with the Databricks environment !!!
+
+
 ![Quality Gate](https://github.com/chavaillaz/elasticsearch-log4j-appender/actions/workflows/sonarcloud.yml/badge.svg)
 ![Dependency Check](https://github.com/chavaillaz/elasticsearch-log4j-appender/actions/workflows/snyk.yml/badge.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.chavaillaz/elasticsearch-log4j-appender/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.chavaillaz/elasticsearch-log4j-appender)
